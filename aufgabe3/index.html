@@ -1,8 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Aufgabe 1</title>
+        <title>Aufgabe 3</title>
+        <meta charset="utf-8">
+        <!-- AUFGABE 1: Hier sollte die Stylesheet-Datei eingebunden werden (blau oder rot) -->
+        <link rel="" type="text/css" href="">
     </head>
     <body>
+        <div class="placer">
+            <div class="dialog_main">
+                <div class="dialog_inner">
+                    <h2 class="dialog_header">Überschrift</h2>
+                    <div class="dialog_content">
+                        <div class="dialog_body">
+                            Ein simpler Text!
+                            <br>
+                            <a href="http://www.fh-koeln.de" target="_blank">Auf zur FH Köln Seite</a><br>
+                            <label for="text_in1">Text1</label>
+                            <input id="text_in1" name="bla" value="bla" style="margin: 5px;" type="text">
+                            <br>
+                            <label for="radio_in1">Radio1</label>
+                            <input id="radio_in1" name="test" value="radio1" type="radio">
+                            <br>
+                            <label for="radio_in2">Radio2</label>
+                            <input id="radio_in2" name="test" value="radio2" type="radio">
+                            <br><br>
+                            <label for="cb_in1">Checkbox1</label>
+                            <input id="cb_in1" name="cb[]" value="checkbox1" type="checkbox">
+                            <br>
+                            <label for="cb_in2">Checkbox2</label>
+                            <input id="cb_in2" name="cb[]" value="checkbox2" type="checkbox">
+                            <br><br>
+                            <select multiple="multiple" name="namenlist[]" size="5">
+                                <option value="rihanna">Rihanna</option>
+                                <option value="lady_gaga">Lady Gaga</option>
+                                <option value="katy_perry">Katy Perry</option>
+                                <option value="taio_cruz">Taio Cruz</option>
+                                <option value="natalia_kills">Natalia Kills</option>
+                            </select>
+                            <br>
+                            <textarea class="personal_msg" rows="5"></textarea>
+                        </div> <!-- dialog_ body -->
+                        <div class="dialog_footer">
+                            <input value="OK" type="button">
+                        </div> <!-- dialog_footer -->
+                    </div> <!-- dialog_content-->
+                </div> <!-- dialog_inner -->
+            </div> <!-- dialog_main -->
+        </div> <!-- placer -->
     </body>
 </html>

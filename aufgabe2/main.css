@@ -1,0 +1,62 @@
+
+
+
+body  {
+    font-family: sans-serif;
+}
+
+
+
+div.placer {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(15, 15, 15, 0.2);
+    border-radius: 10px;
+}
+
+
+div.body {
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+
+
+/* ! Ab hier ! */
+
+
+/*
+    AUFGABE 2:
+    
+    Die Farbe der in den Einträgen befindlichen Texte, soll auf #fff gesetzt werden.
+    Mit welchen Selektor können alle Einträge selektiert werden,
+    um ihnen die Farbeigenschaft zuweisen zu können?
+    
+*/
+
+div.body div.entry {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    
+
+    /* ... */
+}
+
+
+/*
+    AUFGABE 3: 
+    
+    Den Einträgen soll abwechselnd eine andere Hintergrundfarbe zugewiesen werden.
+    Dazu sollten sich die ihnen zugewiesenen Klassen etwas genauer angeschaut werden.
+
+    Die Farben dürfen frei gewählt werden.
+*/
+
+div.body div {/*...*/}
+
+div.body div {/*...*/}
+

@@ -1,0 +1,149 @@
+
+
+/*
+    
+    Diese Datei wird von
+    
+    "main_dialog_blue.css" und
+    "main_dialog_red.css"
+    
+    importiert und sollte nicht direkt eingebunden werden.
+    
+*/
+
+
+
+
+body  {
+    /* AUFGABE2: Die Hintergrundfarbe auf #bbb oder #bbbbbb setzen */
+    
+    /* -->Eigenschaftsname als auch -wert <-- */
+    
+    /* AUFGAB 2: Schriftarten in der folgenden Reihenfolge vorgeben:
+        1. Arial
+        2. Helvetica
+        3. Tahoma
+        
+        Wenn keine der Schriftarten auf dem System installiert ist,
+        dann soll auf eine serifenlose Schrift zurückgefallen werden
+        
+        Also:
+        sans-serif
+    */
+    
+    font-family: /* -->Eigenschaftswert<-- */;
+}
+
+
+
+.personal_msg {
+    /* Aufgabe 3: Diese Textarea soll die komplette Breite des Popups einnehmen */
+    
+    width: /* -->Eigenschaftswert<-- */;
+}
+
+
+
+/*
+    !! Ab hier muss nichts angepasst werden !!
+
+    Wer aber möchte, kann gerne Eigenschaftswerte anpassen
+        und schauen wie sich das auf die Darstellung auswirkt
+*/
+
+
+
+.placer {
+    position: absolute;
+    top: 200px;
+}
+
+
+input, textarea, select {
+    background: #fff;
+    border:     1px solid #ccc;
+    font-size:  1em;
+}
+
+input[type="text"] {
+    height: 15px;
+}
+
+
+
+.dialog_main {
+    background:     rgba(82, 82, 82, 0.7);
+    border-radius:  7px;
+    padding:        10px;
+    position:       fixed;
+    margin:         0 auto;
+    left:           50%;
+    margin-left:    -200px;
+    width:          400px;
+    z-index:        999999;
+}
+
+.dialog_main .dialog_inner {
+    background: #fff;
+    overflow:   hidden;
+}
+
+.dialog_main .dialog_inner .dialog_header {
+    border:         1px solid;
+    border-bottom:  0;
+    color:          #fff;
+    font-size:      14px;
+    margin:         0px;
+    padding:        6px 10px;
+}
+
+.dialog_main .dialog_inner .dialog_content {
+    border:        1px solid #555;
+    border-top:    0;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_body {
+    border-bottom:  1px solid #ccc;
+    color:          #333;
+    font-size:      11px;
+    line-height:    1.5em;
+    margin:         0;
+    padding:        10px;
+    overflow:       auto;
+    overflow-y:     auto;
+    overflow-x:     hidden;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer {
+    background:     #f2f2f2;
+    padding:        8px 10px;
+    text-align:     right;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input {
+    border:             1px solid;
+    box-shadow:         inset 0 1px 0 #000;
+    color:              #fff;
+    cursor:             pointer;
+    display:            inline-block;
+    font-size:          0.9em;
+    font-weight:        bold;
+    margin:             0;
+    margin-left:        4px;
+    padding:            2px 7px;
+    text-decoration:    none;
+    outline:            none;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input::-moz-focus-inner,
+.dialog_main .dialog_inner .dialog_content .dialog_footer input::focus-inner {
+    border: 0;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input:focus {
+    outline:    none;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input:active {
+    box-shadow: 0 0;
+}

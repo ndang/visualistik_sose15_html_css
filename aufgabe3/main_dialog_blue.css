@@ -1,0 +1,25 @@
+
+
+@import url('dialog.css');
+
+
+
+/* Farbsetzung - Blau */
+
+
+.dialog_main .dialog_inner .dialog_header {
+    background-color:   #6d84b4;
+    border-color:       #3b5998;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input {
+    background-color:   #3b5998;
+    border-color:       #2f3186;
+    box-shadow:         inset 0 1px 0 #6d84b4;
+}
+
+.dialog_main .dialog_inner .dialog_content .dialog_footer input:active {
+    background-color: #6d84b4;
+}
+
+
