@@ -8,7 +8,7 @@ Dieses Repository sollte über GitHub geforkt und im nächsten Schritt geklont w
 
 
 ## Aufgabe 1
-HTML-Grundlagen  
+**HTML-Grundlagen**  
 
 * Die `index.html` zu aller erst einmal im Browser öffnen, um sich einen Überblick über den Inhalt zu verschaffen  
 * An den Stellen, die mit den Kommentaren gekennzeichnet sind, sollen Überschriften erster Ordnung eingeführt werden  
@@ -17,7 +17,7 @@ HTML-Grundlagen
 
 
 ## Aufgabe 2
-CSS-Grundlagen  
+**CSS-Grundlagen**  
 
 * Die `index.html` zu aller erst einmal im Browser öffnen, um sich einen Überblick über den Inhalt zu verschaffen  
 * Einbindung der beiliegenden Stylesheet-Datei  
@@ -26,7 +26,7 @@ CSS-Grundlagen
 
 
 ## Aufgabe 3
-Erweitere Aufgabe  
+**Erweitere Aufgabe**  
 
 Wir passen das alte Facebook-Popup an!
 
