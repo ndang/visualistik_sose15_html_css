@@ -19,7 +19,7 @@ body  {
     
     /* -->Eigenschaftsname als auch -wert <-- */
     
-    /* AUFGAB 2: Schriftarten in der folgenden Reihenfolge vorgeben:
+    /* AUFGAB 3: Schriftarten in der folgenden Reihenfolge vorgeben:
         1. Arial
         2. Helvetica
         3. Tahoma
@@ -37,7 +37,7 @@ body  {
 
 
 .personal_msg {
-    /* Aufgabe 3: Diese Textarea soll die komplette Breite des Popups einnehmen */
+    /* Aufgabe 4: Diese Textarea soll die komplette Breite des Popups einnehmen */
     
     width: /* -->Eigenschaftswert<-- */;
 }
